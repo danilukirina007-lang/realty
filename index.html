@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>HomeNest — Агентство недвижимости</title>
+</head>
+<body>
+
+    <header>
+        <span class="logo-text">🏠 HomeNest</span>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="pages/about.html">О нас</a>
+            <a href="pages/objects.html">Объекты</a>
+            <a href="pages/blog.html">Интересное</a>
+            <a href="pages/contacts.html">Контакты</a>
+        </nav>
+        <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-info">
+                <h1>HomeNest Realty</h1>
+                <p class="hero-tagline">Найдите дом своей мечты вместе с нами</p>
+                <a href="pages/objects.html" class="link-hero">Посмотреть объекты →</a>
+                <div class="quick-links">
+                    <a href="#useful-links">Перейти к полезным ссылкам</a>
+                    <a href="README.md" download>Скачать описание проекта</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="useful-links">
+            <h2 class="centered">Полезные ссылки</h2>
+            <p>
+                Здесь собраны примеры разных типов ссылок: внутренняя навигация по сайту, внешние ресурсы,
+                якорные переходы и загрузка файла.
+            </p>
+            <ul class="info-list">
+                <li><a href="pages/about.html">О нашем агентстве</a></li>
+                <li><a href="pages/contacts.html">Связаться с нами</a></li>
+                <li><a href="https://www.imobiliare.md/" target="_blank" rel="noopener noreferrer">Внешний портал недвижимости</a></li>
+                <li><a href="#hero">Вернуться к началу страницы</a></li>
+            </ul>
+            <p>
+                На нашем сайте вы найдёте квартиры, дома и коммерческую недвижимость в Молдове.
+                Мы работаем с проверенными объектами и надёжными собственниками.
+                Объектов просмотрено сегодня: <strong id="view-counter">0</strong>
+            </p>
+            <p class="iconite-line">
+                <iconify-icon icon="mdi:home-city" width="22" height="22"></iconify-icon>
+                Иконка подключена через script iconite (Iconify).
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <span>© HomeNest Realty — 2026</span>
+    </footer>
+
+</body>
+</html>

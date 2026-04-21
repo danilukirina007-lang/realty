@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+    <script src="../js/script.js"></script>
+    <title>Контакты — HomeNest</title>
+</head>
+<body>
+
+    <header>
+        <span class="logo-text">🏠 HomeNest</span>
+        <nav>
+            <a href="../index.html">Главная</a>
+            <a href="../pages/about.html">О нас</a>
+            <a href="../pages/objects.html">Объекты</a>
+            <a href="../pages/blog.html">Интересное</a>
+            <a href="../pages/contacts.html">Контакты</a>
+        </nav>
+        <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
+    </header>
+
+    <main>
+        <section>
+
+            <h1 class="centered">Контакты</h1>
+
+            <div class="row">
+                <div class="col-50">
+
+                    <div class="contacte">
+                        <h2 class="centered">Свяжитесь с нами</h2>
+
+                        <b><i class="fa-solid fa-phone"></i> Телефон: </b>
+                        <a href="tel:+37322987654">+373 22 987 654</a>
+                        <br/><br/>
+
+                        <b><i class="fa-solid fa-envelope"></i> Email: </b>
+                        <a href="mailto:info@homenest.md">info@homenest.md</a>
+                        <br/><br/>
+
+                        <b><i class="fa-solid fa-envelope"></i> Объекты и аренда: </b>
+                        <a href="mailto:sales@homenest.md">sales@homenest.md</a>
+                        <br/><br/>
+
+                        <b><i class="fa-brands fa-whatsapp"></i> WhatsApp: </b>
+                        <a href="https://wa.me/37369987654" target="_blank">+373 69 987 654</a>
+                        <br/><br/>
+
+                        <b><i class="fa-solid fa-location-dot"></i> Адрес: </b>
+                        ул. Александру чел Бун, 45, Кишинёв
+                        <br/><br/>
+
+                        <b><i class="fa-regular fa-clock"></i> Режим работы: </b>
+                        Пн–Пт: 9:00–18:00, Сб: 10:00–15:00
+                    </div>
+
+                </div>
+
+                <div class="col-50">
+                    <div class="cform">
+                        <h2 class="centered">Оставить заявку</h2>
+
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="email" placeholder="Ваш email">
+                        <select>
+                            <option value="">Тип запроса</option>
+                            <option value="buy">Хочу купить</option>
+                            <option value="rent">Хочу снять</option>
+                            <option value="sell">Хочу продать</option>
+                            <option value="consult">Консультация</option>
+                        </select>
+                        <input type="text" placeholder="Бюджет или интересующий район">
+                        <textarea rows="5" placeholder="Опишите ваши пожелания..."></textarea>
+                        <input type="submit" value="Отправить заявку">
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+
+            <iframe class="harta"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91196.78!2d28.8638!3d47.0245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97c3628b769a1%3A0x37d1d6305749dd9!2sChișinău%2C%20Moldova!5e0!3m2!1sru!2s!4v1"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="info-block">
+                <h2>Проверка и публикация сайта</h2>
+                <p>
+                    После публикации сайта в интернете проверьте валидность HTML через официальный валидатор W3C.
+                </p>
+                <ul class="info-list">
+                    <li><a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">Проверить сайт в W3C Validator</a></li>
+                    <li><a href="https://iconify.design/" target="_blank" rel="noopener noreferrer">Сайт iconite/iconify для иконок</a></li>
+                </ul>
+                <p class="iconite-line">
+                    <iconify-icon icon="mdi:map-marker-radius" width="22" height="22"></iconify-icon>
+                    Контактные данные и карта доступны на этой странице.
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <span>© HomeNest Realty — 2026</span>
+    </footer>
+
+</body>
+</html>

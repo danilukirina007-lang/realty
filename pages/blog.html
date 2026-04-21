@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+    <script src="../js/script.js"></script>
+    <title>Интересное — HomeNest</title>
+</head>
+<body>
+
+    <header>
+        <span class="logo-text">🏠 HomeNest</span>
+        <nav>
+            <a href="../index.html">Главная</a>
+            <a href="../pages/about.html">О нас</a>
+            <a href="../pages/objects.html">Объекты</a>
+            <a href="../pages/blog.html">Интересное</a>
+            <a href="../pages/contacts.html">Контакты</a>
+        </nav>
+        <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
+    </header>
+
+    <main>
+        <section>
+
+            <h1 class="centered">Интересное о недвижимости</h1>
+
+            <div class="dest-hero">
+                <h2>Полезные советы для покупателей и арендаторов</h2>
+                <p>
+                    На этой странице мы собрали самые важные советы и интересные факты о рынке недвижимости Молдовы.
+                    Читайте, чтобы принимать взвешенные решения при покупке или аренде жилья.
+                </p>
+            </div>
+
+            <!-- Статья 1 -->
+            <div id="article-1">
+                <h2>5 вещей, на которые смотреть при осмотре квартиры</h2>
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80"
+                     alt="Осмотр квартиры" style="width:100%; max-height:300px; object-fit:cover; border-radius:10px; margin-bottom:14px;">
+                <ul class="disc">
+                    <li><strong>Состояние окон и балкона.</strong> Проверьте, нет ли щелей и плесени в углах.</li>
+                    <li><strong>Водопровод и канализация.</strong> Откройте краны, проверьте давление воды.</li>
+                    <li><strong>Электрика.</strong> Посмотрите на счётчик и распределительный щиток.</li>
+                    <li><strong>Шумоизоляция.</strong> По возможности приходите в будний день.</li>
+                    <li><strong>Соседи и подъезд.</strong> Чистота подъезда многое говорит о жильцах дома.</li>
+                </ul>
+            </div>
+
+            <!-- Статья 2 -->
+            <div id="article-2" style="margin-top: 36px;">
+                <h2>Ипотека в Молдове: что нужно знать</h2>
+                <img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=700&q=80"
+                     alt="Ипотека" style="width:100%; max-height:280px; object-fit:cover; border-radius:10px; margin-bottom:14px;">
+                <p>
+                    Ипотечное кредитование в Молдове активно развивается. Средняя ставка составляет
+                    8–11% годовых в леях и 5–7% в евро. Банки требуют первоначальный взнос от 15–20%.
+                    Программа «Prima Casă» позволяет молодым семьям получить льготную ипотеку на более выгодных условиях.
+                </p>
+                <p>
+                    Важно сравнить предложения нескольких банков — разница в ставках может привести к
+                    значительной экономии за весь срок кредита. Наши агенты помогут вам разобраться с документами
+                    и выбрать оптимальный банк-партнёр.
+                </p>
+                <p>
+                    <a href="https://www.bnm.md/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> Сайт Национального банка Молдовы
+                    </a>
+                </p>
+            </div>
+
+            <!-- Внутренние якорные ссылки -->
+            <div class="info-block" style="margin-top:30px;">
+                <h2>Быстрая навигация по разделу</h2>
+                <ul class="info-list">
+                    <li><a href="#article-1">Советы при осмотре квартиры</a></li>
+                    <li><a href="#article-2">Ипотека в Молдове</a></li>
+                    <li><a href="../pages/objects.html">Смотреть все объекты</a></li>
+                    <li><a href="https://www.imobiliare.md/" target="_blank" rel="noopener noreferrer">Портал недвижимости imobiliare.md</a></li>
+                </ul>
+                <p class="iconite-line">
+                    <iconify-icon icon="mdi:information-outline" width="22" height="22"></iconify-icon>
+                    Полезная информация обновляется каждую неделю.
+                </p>
+            </div>
+
+            <!-- Видео -->
+            <h2 style="margin-top: 30px;">Видео: как выбрать квартиру правильно</h2>
+            <iframe class="vframe"
+                src="https://www.youtube.com/embed/7K0ZKGMPmTs"
+                title="Как выбрать квартиру"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+
+        </section>
+    </main>
+
+    <footer>
+        <span>© HomeNest Realty — 2026</span>
+    </footer>
+
+</body>
+</html>
